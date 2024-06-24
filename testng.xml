@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="seleniumprograms.FindElements"/>
+      <class name="seleniumprograms.WebTablesConcept"/>
+      <class name="seleniumprograms.HandlingInputs"/>
+      <class name="seleniumprograms.ImplicitsWaits"/>
+      <class name="seleniumprograms.MouseHover"/>
+      <class name="seleniumprograms.HandlingFrames"/>
+      <class name="seleniumprograms.ScreenshotsWithCasting"/>
+      <class name="seleniumprograms.HandleDropDowns"/>
+      <class name="seleniumprograms.ScreenshotsWithoutCasting"/>
+      <class name="seleniumprograms.RightClick"/>
+      <class name="seleniumprograms.BaseCodeForSelenium"/>
+      <class name="seleniumprograms.HandlingAlerts"/>
+      <class name="org.stepdefinition.Hooks"/>
+      <class name="seleniumprograms.WindowHandlingforMultibleTab"/>
+      <class name="seleniumprograms.DragAndDrop"/>
+      <class name="seleniumprograms.WindowHandlingforSingleTab"/>
+      <class name="seleniumprograms.ExplicitWaitConcepts"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
